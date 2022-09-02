@@ -1,13 +1,10 @@
-#  REPO NAME
+#  Machine Learning Trading Bot
 
-Repo description
+Evaluate differnet machine learning algorithms for use in an algorithmic trading bot.
 
 ---
 
 ## Evaluation Report
-
-For this report, express your final conclusions and analysis.
-Support your findings by using the PNG images that you created.
 
 ### Baseline Trading Algorithm
 
@@ -101,7 +98,7 @@ By adjusting the Slow / Fast SMAs we are able to improve the -1.0 precision from
 
 ### Using a new Model to Improve the Trading Algorithm
 
-
+Two different models were used to try to improve the Trading Algorithm: AdaBoost and DecisionTreeClassifier. As you can see by the Strategy results below, neither were successful.
 
 ![alt text](2-85-18_plot_dtc_actual_v_strategy.png)
 
